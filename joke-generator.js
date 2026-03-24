@@ -13,7 +13,6 @@ const getJoke = ()=>{
             // console.log(`here a random ${joke.type} joke`);
             // console.log(`chalk.red (${joke.setup})`);
             // console.log(`chalk.blue.bgRed.bold (${joke.punchline})`);
-
         });
         response.on('err',() =>{
           console.log(`error fetching the joke, ${err.message}`);
